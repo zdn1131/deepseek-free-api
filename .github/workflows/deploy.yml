@@ -39,6 +39,6 @@ jobs:
         with:
           project: "zdn1131-deepseek-fr-85"
           entrypoint: "node dist/index.js"
-          root: "."
+          root: ""
           
           
