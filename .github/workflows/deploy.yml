@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "zdn1131-deepseek-fr-13"
-          entrypoint: "jsr:@node dist/index.js"
-          root: "."
+          project: "zdn1131-deepseek-fr-85"
+          entrypoint: "index.js"
+          root: "build"
           
           
