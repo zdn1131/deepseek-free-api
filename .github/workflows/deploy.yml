@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "zdn1131-deepseek-fr-13"
-          entrypoint: "jsr:@deno/nextjs-start"
+          entrypoint: "jsr:@node dist/index.js"
           root: "."
-          include: .next, public
+          
           
